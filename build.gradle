@@ -5,6 +5,10 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
+def allureVersion = "2.14.0",
+    selenideVersion = "5.23.0",
+    junitVersion = "5.7.2"
+
 repositories {
     mavenCentral()
 }
